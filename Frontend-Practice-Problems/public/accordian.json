@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "title": "What is React?",
+      "content": "React is a JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called 'components'."
+    },
+    {
+      "id": 2,
+      "title": "What is Vite?",
+      "content": "Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects. It leverages native ES modules and is highly optimized for speed."
+    },
+    {
+      "id": 3,
+      "title": "What is useState?",
+      "content": "`useState` is a React Hook that lets you add state to functional components. It returns an array with the current state value and a function to update it."
+    },
+    {
+      "id": 4,
+      "title": "What is useEffect?",
+      "content": "`useEffect` is a React Hook that lets you run side effects in your components, like data fetching, subscriptions, or manually changing the DOM."
+    }
+  ]
