@@ -1,0 +1,50 @@
+.rating-container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 1rem;
+  }
+  
+  .half-toggle {
+    display: block;
+    margin-bottom: 0.8rem;
+    font-size: 0.9rem;
+  }
+  
+  .stars {
+    display: inline-flex;
+    cursor: pointer;
+    gap: 10px;
+  }
+  
+  .star-wrapper {
+    position: relative;
+  }
+  
+  .star {
+    font-size: 2rem;
+    color: lightgray;
+    transition: color 0.2s ease;
+  }
+  
+  .star.filled {
+    color: gold;
+  }
+  
+  .star.half {
+    position: absolute;
+    left: 0;
+    width: 50%;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .star.half.filled {
+    color: gold;
+  }
+  
+  .rating-value {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
