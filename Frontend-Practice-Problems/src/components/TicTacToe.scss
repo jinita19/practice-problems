@@ -1,0 +1,31 @@
+.cell {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.container {
+    text-align: center;
+}
+
+.reset-btn{
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.reset-btn:hover {
+    background-color: lightgreen;
+    border: none;
+}

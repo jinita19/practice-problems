@@ -6,6 +6,8 @@ import DataTable from './components/DataTable';
 import ToDo from './components/ToDo';
 import StarRating from './components/StarRating';
 import ProgressBar from './components/ProgressBar';
+import TicTacToe from './components/TicTacToe';
+import SignUpForm from './components/SignUpForm';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
         <Route path="/problems/todo" element={<ToDo />} />
         <Route path="/problems/star-rating" element={<StarRating />} />
         <Route path="/problems/progress-bar" element={<ProgressBar />} />
+        <Route path="/problems/tic-tac-toe" element={<TicTacToe />} />
+        <Route path="/problems/form" element={<SignUpForm />} />
       </Routes>
     </Router>
   );
